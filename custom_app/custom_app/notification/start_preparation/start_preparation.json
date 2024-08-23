@@ -1,0 +1,30 @@
+{
+ "attach_print": 0,
+ "channel": "System Notification",
+ "condition": "doc.workflow_state == \"Approved By Owner\"\n",
+ "creation": "2024-08-17 19:24:34.891727",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Menu Card",
+ "enabled": 1,
+ "event": "Save",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "<p>The menu has been approved by the owner. Please start the preparation.</p>\n",
+ "message_type": "Markdown",
+ "modified": "2024-08-19 15:33:21.849634",
+ "modified_by": "Administrator",
+ "module": "Custom App",
+ "name": "Start Preparation",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "receiver_by_document_field": "owner",
+   "receiver_by_role": "Cook"
+  }
+ ],
+ "send_system_notification": 0,
+ "send_to_all_assignees": 0,
+ "subject": "Start Preparation Notification"
+}
